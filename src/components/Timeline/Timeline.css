@@ -1,0 +1,74 @@
+.timeline {
+  display: flex;
+  white-space: nowrap;
+  margin-left: 800px;
+  width: fit-content;
+  position: absolute;
+  z-index: -1;
+}
+
+.label {
+  font-family: 'Montserrat', serif;
+  padding-top: 50px;
+  position: relative;
+  min-width: 30px;
+  min-height: calc(100vh - 50px);
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.label:first-child {
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.label:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: rgb(40, 40, 40);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  z-index: 1;
+}
+
+.textBackground {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: translateY(-25%);
+  background-color: rgb(16,16,16);
+  border-top: 1px solid rgb(66,66,66);
+  border-bottom: 1px solid rgb(66,66,66);
+}
+
+.label:first-child .textBackground {
+  min-width: 100px;
+  width: 100px;
+  height: 30px;
+  border-left: 1px solid rgb(66,66,66);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.label:last-child .textBackground {
+  border-right: 1px solid rgb(66,66,66);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.line {
+  position: absolute;
+  background-color: rgb(204,0,0);
+  width: 1px;
+  min-height: 100vh;
+  bottom:0;
+  z-index: -1;
+}
