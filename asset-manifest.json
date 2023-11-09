@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeb702c3.css",
-    "main.js": "/static/js/main.6839f11e.js",
-    "static/js/787.b5daa3be.chunk.js": "/static/js/787.b5daa3be.chunk.js",
-    "index.html": "/index.html",
-    "main.aeb702c3.css.map": "/static/css/main.aeb702c3.css.map",
-    "main.6839f11e.js.map": "/static/js/main.6839f11e.js.map",
-    "787.b5daa3be.chunk.js.map": "/static/js/787.b5daa3be.chunk.js.map"
+    "main.css": "/chloewakefieldd.github.io/story/static/css/main.aeb702c3.css",
+    "main.js": "/chloewakefieldd.github.io/story/static/js/main.0078ab61.js",
+    "static/js/787.b5daa3be.chunk.js": "/chloewakefieldd.github.io/story/static/js/787.b5daa3be.chunk.js",
+    "index.html": "/chloewakefieldd.github.io/story/index.html",
+    "main.aeb702c3.css.map": "/chloewakefieldd.github.io/story/static/css/main.aeb702c3.css.map",
+    "main.0078ab61.js.map": "/chloewakefieldd.github.io/story/static/js/main.0078ab61.js.map",
+    "787.b5daa3be.chunk.js.map": "/chloewakefieldd.github.io/story/static/js/787.b5daa3be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aeb702c3.css",
-    "static/js/main.6839f11e.js"
+    "static/js/main.0078ab61.js"
   ]
 }
